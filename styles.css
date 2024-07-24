@@ -23,8 +23,6 @@ body {
     text-align: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 400px;
-    width: 400px;
     background: rgba(236, 233, 233, 0.2); /* Semi-transparent background */
     backdrop-filter: blur(10px); /* Blur effect */
     -webkit-backdrop-filter: blur(10px); /* For Safari support */
