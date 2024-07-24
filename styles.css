@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    height: 100vh;
+    background-color: #e46565;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: white border */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: slight shadow for depth */
+    padding: 20px; /* Optional: padding inside the element */
+    color: rgb(0, 0, 0); /* Text color */
+}
+
+.card img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #bde0fe;
+}
+
