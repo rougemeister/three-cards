@@ -1,34 +1,39 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
     height: 100vh;
-    background-color: #e46565;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 
 .card {
+
+    font-family: "Quicksand", sans-serif;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 500px;
+    height: 400px;
     width: 400px;
-    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    background: rgba(236, 233, 233, 0.2); /* Semi-transparent background */
     backdrop-filter: blur(10px); /* Blur effect */
     -webkit-backdrop-filter: blur(10px); /* For Safari support */
     border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: white border */
     border-radius: 10px; /* Optional: rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: slight shadow for depth */
-    padding: 20px; /* Optional: padding inside the element */
+    padding: 25px; /* Optional: padding inside the element */
     color: rgb(0, 0, 0); /* Text color */
+    
 }
 
 .card img {
@@ -36,5 +41,11 @@ body {
     height: 250px;
     border-radius: 50%;
     background-color: #bde0fe;
+    margin-top: 1rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 0.5rem 0;
 }
 
